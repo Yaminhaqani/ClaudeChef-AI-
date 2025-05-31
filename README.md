@@ -27,22 +27,26 @@ cd ClaudeChef-AI-
 ```
 
 ### 2. Install dependencies
+```bash
 npm install
+```
 
 ### 3.  Set up your .env file:
-you need to get api and access token from openrouter
+You need to get api and access token from [OpenRouter](https://openrouter.ai) 
 
 ### 4.  Run the development server:
+```bash
 npm run dev
+```
 
-📋 Usage
+### **_📋Usage:_** 
 Enter a list of available ingredients.
 
 ClaudeChef will analyze them and return a custom recipe using those ingredients.
 
 The AI may intelligently tweak ingredients if needed to create a better recipe.
 
-📌 Notes
+#### **_📌Notes:_**
 🔐 Requires .env file with valid API keys.
 
 🧠 Uses OpenRouter for AI completions.
