@@ -23,9 +23,9 @@ ClaudeChef is an AI-powered recipe assistant built with React. Just enter the in
 
 ```bash
 git clone https://github.com/Yaminhaqani/ClaudeChef-AI-.git
-cd ClaudeChef-AI-
+cd ClaudeChef-AI-```
 
-### 2.  Install dependencies: 
+### 2. Install dependencies
 npm install
 
 ### 3.  Set up your .env file:
