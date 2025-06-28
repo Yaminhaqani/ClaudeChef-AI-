@@ -30,7 +30,7 @@ const IngredientsList = ({ingredients, getRecipe, recipeRef}) => {
 { ingredients.length<4 &&  <p className='text-gray-500 font-black'>Add minimum of 4 ingredients to generate recipe</p>  }
   <h1 className='text-3xl font-medium '>Ingredients on hand:</h1>
 <ul className='list-disc pl-5 text-gray-500 text-xl h-fit overflow-y-auto mb-4'>{ingredientList}</ul>
-{ingredients.length>3 && <div className='border-none rounded-lg p-6 bg-[#ededed] flex flex-col items-center sm:flex sm:flex-row'>
+{ingredients.length>3 && <div className='border-none rounded-lg p-6 bg-[#ededed] flex flex-col items-center sm:flex sm:flex-row shadow-lg'>
 <div className='sm:flex-[4]'>
   <h3 className='font-bold'>Ready for recipe?</h3>
   <p className='text-gray-500'>Generate a recipe from given list of ingredients.</p>

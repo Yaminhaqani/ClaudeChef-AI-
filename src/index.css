@@ -6,6 +6,6 @@
 
 
 body{
-    background-color: #FAFAF8;
+    background-image: linear-gradient(to right, #fdfcfb, #e2d1c3);
     font-family: var(--font-roboto);
 }
